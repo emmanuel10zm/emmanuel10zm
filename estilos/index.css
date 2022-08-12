@@ -20,7 +20,7 @@ header {
     top: 0;
     left: 0;
     height: 80px;
-    background-color: rgb(192, 190, 190);
+    background-color: #d8d8d8;
     z-index: 50;
 }
 
@@ -67,6 +67,7 @@ header .logo {
 }
 
 /* HEADER */ 
+
 
 /* SLIDER */ 
 
@@ -124,7 +125,7 @@ footer
     *background-size: cover;
     -webkit-mask-image: url(../imagenes/background-footer.svg);
     mask-image: url(../imagenes/background-footer.svg);
-    background-color: rgb(182, 182, 182);
+    background-color: #d8d8d8;
     -webkit-mask-size: cover;
     mask-size: cover;
 }
@@ -265,18 +266,30 @@ footer
 {
     .slider
     {
-        width: 50%;
+        width: 70%;
         margin: auto;
-        margin-top: 200px;
+        margin-top: 100px;
         overflow: hidden;
     }
     .logo
     {
         display: none;
     }
-
     .menua {
         display: flex;
         justify-content: center;
+    }
+    #Alcatraz
+    {
+        max-width: 150px;
+    }
+
+    #Margarita
+    {
+        max-width: 150px;
+    }
+    #Aretillo
+    {
+        display: none;
     }
 }
