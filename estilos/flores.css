@@ -13,14 +13,17 @@ body {
 /* FUENTE */ 
 
 /* HEADER */ 
-
+.menua h2{
+    margin-left: 40px;
+    margin-top: 10px;
+}
 header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     height: 80px;
-    background-color: #d8d8d8;
+    background-color: #c44d4d;
     z-index: 50;
 }
 
@@ -81,7 +84,7 @@ footer
     *background-size: cover;
     -webkit-mask-image: url(../imagenes/background-footer.svg);
     mask-image: url(../imagenes/background-footer.svg);
-    background-color: #d8d8d8;
+    background-color: #c44d4d;
     -webkit-mask-size: cover;
     mask-size: cover;
 }
@@ -235,5 +238,13 @@ h4
         align-items: center;
         margin-left: -30px;
     }
-
+    header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 80px;
+        background-color: #c44d4d;
+        z-index: 50;
+    }
 }

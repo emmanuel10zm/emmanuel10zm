@@ -13,14 +13,17 @@ body {
 /* FUENTE */ 
 
 /* HEADER */ 
-
+.menua h2{
+    margin-left: 40px;
+    margin-top: 10px;
+}
 header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     height: 80px;
-    background-color: #d8d8d8;
+    background-color: #c44d4d;
     z-index: 50;
 }
 
@@ -82,8 +85,8 @@ header .logo {
 {
     display: flex;
     padding: 0;
-    width: 400%;
-    animation: cambio 20s infinite alternate;
+    width: 700%;
+    animation: cambio 45s infinite alternate;
     animation-timing-function: ease-in;
 }
 
@@ -101,16 +104,25 @@ header .logo {
 @keyframes cambio 
 {
     0%{ margin-left: 0;}   
-    20%{ margin-left: 0;}  
+    15%{ margin-left: 0;}  
 
-    25%{ margin-left: -100%;}   
-    45%{ margin-left: -100%;}  
+    20%{ margin-left: -100%;}   
+    30%{ margin-left: -100%;}  
     
-    50%{ margin-left: -200%;}   
-    70%{ margin-left: -200%;}  
+    35%{ margin-left: -200%;}   
+    45%{ margin-left: -200%;}  
 
-    75%{ margin-left: -300%;}   
-    100%{ margin-left: -300%;}  
+    50%{ margin-left: -300%;}   
+    60%{ margin-left: -300%;}  
+
+    65%{ margin-left: -400%;}   
+    75%{ margin-left: -400%;} 
+
+    80%{ margin-left: -500%;}   
+    90%{ margin-left: -500%;} 
+
+    95%{ margin-left: -600%;}   
+    100%{ margin-left: -600%;} 
 }
 
 /* SLIDER */ 
@@ -125,7 +137,7 @@ footer
     *background-size: cover;
     -webkit-mask-image: url(../imagenes/background-footer.svg);
     mask-image: url(../imagenes/background-footer.svg);
-    background-color: #d8d8d8;
+    background-color: #c44d4d;
     -webkit-mask-size: cover;
     mask-size: cover;
 }
@@ -266,8 +278,8 @@ footer
 {
     .slider
     {
-        width: 70%;
-        margin: auto;
+        width: 100%;
+        margin: center;
         margin-top: 100px;
         overflow: hidden;
     }
